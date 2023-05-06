@@ -39,7 +39,5 @@ Questions
 
 # II. Create video demo for a running implementation format is same as Project 1
 
-# III. Complete the todo sections in the cranes_algs.hpp, update the readme file with team member names and email ID.
-
 
 
