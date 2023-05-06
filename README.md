@@ -1,8 +1,7 @@
 # Project 2: Dynamic vs. Exhaustive - Crane unloading problem
 ## CPSC 335 - Algorithm Engineering
 ## Spring 2023
-## Instructor: 
- Himani Tawade
+## Instructor: Himani Tawade
 ## Members:
  David Nguyen (dnguyen271@csu.fullerton.edu) & Vivian Truong(vtruong72@csu.fullerton.edu)
 
