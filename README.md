@@ -3,9 +3,7 @@
 # Spring 2023
 # Instructor: Himani Tawade
 
-**Clone This repository into your repository and implement the code, along with a document with required details mentioned at the last, a demo video, readme file and .gitignore file. Submission will be a git repo link with all the requirements updated to repo on canvas.**
-
-# CPSC--335-Algorithms
+**along with a document with required details mentioned at the last, a demo video, readme file and .gitignore file. Submission will be a git repo link with all the requirements updated to repo on canvas.**
 
 ## Members:
  David Nguyen (dnguyen271@csu.fullerton.edu) & Vivian Truong(vtruong72@csu.fullerton.edu)
