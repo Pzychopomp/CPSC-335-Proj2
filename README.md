@@ -11,7 +11,33 @@
 
 ## The Exhaustive Optimization Algorithm Pseudocode:
     
-    
+`    function crane_unloading_exhaustive(setting):
+    if setting has no rows or columns:
+        return "Error: Input setting must not be empty."
+    max_steps = setting.rows() + setting.columns() - 2
+    if max_steps >= 64:
+        return "Error: Maximum number of steps is too large."
+    best = new path object with input setting
+    for steps from 1 to max_steps:
+        mask = 1 << steps
+        for bits from 0 to mask - 1:
+            candidate = new path object with input setting
+            valid = true
+            for k from 0 to steps - 1:
+                bit = (bits >> k) & 1
+                if bit == 1:
+                    if candidate.is_step_valid(STEP_DIRECTION_EAST):
+                        candidate.add_step(STEP_DIRECTION_EAST)
+                    else:
+                        valid = false
+                else:
+                    if candidate.is_step_valid(STEP_DIRECTION_SOUTH):
+                        candidate.add_step(STEP_DIRECTION_SOUTH)
+                    else:
+                        valid = false
+                if valid and candidate.total_cranes() > best.total_cranes():
+                    best = copy of candidate
+    return best`
 
 ## The Dynamic Programming Algorithm Pseudocode:
 
