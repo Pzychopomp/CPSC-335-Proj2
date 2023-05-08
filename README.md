@@ -11,9 +11,7 @@
 
 ## The Exhaustive Optimization Algorithm Pseudocode:
     
-    function crane_unloading_exhaustive(setting):
-    
-      def crane_unloading_exhasutive (setting):
+    def crane_unloading_exhasutive (setting):
           assert(setting.rows() > 0)
           assert(setting.columns() > 0)
           
@@ -44,7 +42,7 @@
 
 ## The Dynamic Programming Algorithm Pseudocode:
     
-    crane_unloading_dyn_prog(setting):
+    def crane_unloading_dyn_prog(setting):
     
         assert(setting.rows() > 0)
         assert (setting.columns > 0)
