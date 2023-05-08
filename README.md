@@ -78,19 +78,20 @@
                       
                   if (from_left.has_value() && !(from_above.has_value())):
                       A[r][c] = from_left
-              endif
-        endfor
-    end for
-    // Post-processing to find maximum-crane path
-    best = A[0][0]
-    assert(best->has_value())
-    for r = 0 to setting.rows() - 1:
-    for c = 0 to setting.columns() - 1:
-    if (A[r][c].has_value() && A[r][c]->total_cranes() > (*best)->total_cranes()):
-    best = &(A[r][c])
-    assert(best->has_value())
-    
-    return **best
+                  endif
+            endfor
+        end for
+        
+        // Post-processing to find maximum-crane path
+        best = A[0][0]
+        assert(best->has_value())
+        for r = 0 to setting.rows() - 1:
+        for c = 0 to setting.columns() - 1:
+        if (A[r][c].has_value() && A[r][c]->total_cranes() > (*best)->total_cranes()):
+        best = &(A[r][c])
+        assert(best->has_value())
+
+        return **best
     
 # To Do:
 
