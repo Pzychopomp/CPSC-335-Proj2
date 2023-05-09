@@ -5,8 +5,6 @@
 ## Members:
  David Nguyen (dnguyen271@csu.fullerton.edu) & Vivian Truong(vtruong72@csu.fullerton.edu)
 
-a demo video
-
 ## The Exhaustive Optimization Algorithm Pseudocode:
     
     def crane_unloading_exhasutive (setting):
@@ -103,11 +101,3 @@ Yes there is a significant difference in the performance of the two algorithms g
 3.	Is this evidence consistent or inconsistent with hypothesis 1? Justify your answer.
 
 This evidence is consistent with hypothesis 1 stating that polynomial time dynamic program programming algorithms are more efficient than exponential- time exhaustive search algorithms that solves the same problem. We know that the dynamic programming algorithm has a polynomial time complexity of O(n^3) while the other algorithm has an exponential time complexity of O(2(n^2)). Looking at the time complexity as the input size gradually increases, we see that the dynamic algorithm will be faster than the exhaustive algorithm.
-
-4.	Is this evidence consistent or inconsistent with hypothesis 2? Justify your answer.
-
-
-
-# II. Create video demo for a running implementation format is same as Project 1
-
-
