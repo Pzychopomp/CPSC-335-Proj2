@@ -37,7 +37,6 @@ a demo video
                   best = candidate
               endfor
           endfor
-## Exhaustive Optimization Scatterplot Graph
 
 ## The Dynamic Programming Algorithm Pseudocode:
     
@@ -91,26 +90,22 @@ a demo video
         assert(best->has_value())
 
         return **best
-        
-## Dynamic Programming Scatterplot Graph
-    ![alt text](https://github.com/Pzychopomp/CPSC-335-Proj2/blob/main/ex%20plot.jpg "Scatterplot")
-# To Do:
-
-# I. Create a Document with the following 
-- Exhastive Algorithm Soltuion Psuedocode and time analysis
-- Plot a graph for time vs input size for the algorthm
-- Dynamic Algorithm Soltuion Psuedocode and time analysis
-- Plot a graph for time vs input size for the algorthm
-- Answer the below question based on the algorithm run time observations
 
 Questions
 1.	Is there a noticeable difference in the performance of the two algorithms? Which is faster, and by how much? Does this surprise you?
 
+Yes there is a significant difference in the performance of the two algorithms given. We see that dynamic programming is significantly faster than the exhaustive algorithm. The exhaustive algorithm is in exponential time complexity while the dynamic algorithm is in polynomial time complexity. In all, the dynamic algorithm can finish within less than a second while the exhaustive algorithm takes a couple minutes to finish. When using large inputs, it is logical that the exhaustive algorithm becomes unsuitable while the dynamic algorithm is appropriate.
+  
 2.	Are your empirical analyses consistent with your mathematical analyses? Justify your answer.
+
+ Given the time unit analysis and the graph of the two algorithms, we can see that the dynamic programming algorithm is much faster than the exhaustive algorithm. The exhaustive algorithm is in exponential time so therefore as the input size increases so does the time. In all, this idea supports my empirical analysis with my mathematical analysis. The dynamic programming is in cubic time where their time complexity is O(n^3). When the input size increases for this algorithm, the time increases polynomially due to its being O(n^3). Therefore, It is faster than exhaustive optimization.
 
 3.	Is this evidence consistent or inconsistent with hypothesis 1? Justify your answer.
 
+This evidence is consistent with hypothesis 1 stating that polynomial time dynamic program programming algorithms are more efficient than exponential- time exhaustive search algorithms that solves the same problem. We know that the dynamic programming algorithm has a polynomial time complexity of O(n^3) while the other algorithm has an exponential time complexity of O(2(n^2)). Looking at the time complexity as the input size gradually increases, we see that the dynamic algorithm will be faster than the exhaustive algorithm.
+
 4.	Is this evidence consistent or inconsistent with hypothesis 2? Justify your answer.
+
 
 
 # II. Create video demo for a running implementation format is same as Project 1
