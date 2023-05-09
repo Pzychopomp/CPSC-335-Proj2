@@ -5,9 +5,7 @@
 ## Members:
  David Nguyen (dnguyen271@csu.fullerton.edu) & Vivian Truong(vtruong72@csu.fullerton.edu)
 
-**along with a document with required details mentioned at the last, a demo video, readme file and .gitignore file. Submission will be a git repo link with all the requirements updated to repo on canvas.**
-
-
+a demo video
 
 ## The Exhaustive Optimization Algorithm Pseudocode:
     
