@@ -39,6 +39,7 @@
                   best = candidate
               endfor
           endfor
+## Exhaustive Optimization Scatterplot Graph
 
 ## The Dynamic Programming Algorithm Pseudocode:
     
@@ -92,7 +93,9 @@
         assert(best->has_value())
 
         return **best
-    
+        
+## Dynamic Programming Scatterplot Graph
+    ![alt text]([https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png](https://github.com/Pzychopomp/CPSC-335-Proj2/blob/main/ex%20plot.jpg) "Scatterplot")
 # To Do:
 
 # I. Create a Document with the following 
