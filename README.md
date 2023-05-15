@@ -4,7 +4,7 @@
 ## Instructor: Himani Tawade
 ## Members:
  David Nguyen (dnguyen271@csu.fullerton.edu) & Vivian Truong(vtruong72@csu.fullerton.edu)
-
+## Please check the pdf and the mp4 as well for submission requirements
 ## The Exhaustive Optimization Algorithm Pseudocode:
     
     def crane_unloading_exhasutive (setting):
